@@ -1,6 +1,5 @@
 import os
 
-from huggingface_hub import InferenceClient
 from file_loader import load_pdf
 from generate_qa import generate_qa
 from environment import OUTPUT_FOLDER
